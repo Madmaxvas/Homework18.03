@@ -26,6 +26,7 @@ Vec< List< T >* > balanced_move(Vec< List< T >* > v, size_t k) {
 
     List<T>** all_nodes = nullptr;
     List<T>** new_data = nullptr;
+
     try {
         if (total_nodes > 0) {
             all_nodes = new List<T>*[total_nodes];
